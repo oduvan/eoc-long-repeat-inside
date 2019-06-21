@@ -1,0 +1,36 @@
+<p><i><a href="https://py.checkio.org/forum/post/11382/4-mission-ideas-substrings/">Существует четыре миссии связанные с анализом частей строк.</a> Все они были созданы за один день и не требуют более одного дня для своего решения. Эти миссии можно с легкостью преодолеть посредством простого перебора символов. Но, возможно, есть вариант получше? (У Вас может еще не быть доступа ко всем этим миссиям, но по мере открытия островов на карте он будет предоставлен)
+</i></p>
+
+<p>
+    Это четвертая и последняя миссия серии. Если в первой миссии Вам нужно было найти повторяющиеся буквы, то здесь Вам необходимо разыскать повторяющуюся последовательность в подстроке. У меня есть небольшой пример: в строке  "abababc" - "ab" является последовательностью, которая повторяется более одного раза, поэтому ответом будет "ababab".
+</p>
+
+
+<p>
+    <strong>Входные данные: </strong> Строка.
+
+<p>
+    <strong>Выходные данные: </strong> Строка. 
+</p>
+
+
+
+
+<div class="for_info_only">
+    <p>
+        <strong>Пример:</strong>
+    </p>
+<pre class="brush: python">{% if interpreter.slug == "js-node" %}
+repeatInside('aaaaa') == 'aaaaa'
+repeatInside('aabbff') == 'aa'
+repeatInside('aababcc') == 'abab'
+repeatInside('abc') == ''
+repeatInside('abcabcabab') == 'abcabc'
+{% else %}
+repeat_inside('aaaaa') == 'aaaaa'
+repeat_inside('aabbff') == 'aa'
+repeat_inside('aababcc') == 'abab'
+repeat_inside('abc') == ''
+repeat_inside('abcabcabab') == 'abcabc'
+{% endif %}</pre>
+</div>

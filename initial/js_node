@@ -1,0 +1,20 @@
+
+export function repeatInside(a) {
+
+    // your code here
+    return undefined;
+}
+
+import * as assert from 'assert';
+console.log('Example:');
+console.log(repeatInside('aaaaa'));
+
+// These "asserts" are used for self-checking
+assert.equal(repeatInside('aaaaa'), 'aaaaa');
+assert.equal(repeatInside('aabbff'), 'aa');
+assert.equal(repeatInside('aababcc'), 'abab');
+assert.equal(repeatInside('abc'), '');
+assert.equal(repeatInside('abcabcabab'), 'abcabc');
+
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
+    

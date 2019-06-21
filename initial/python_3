@@ -1,0 +1,16 @@
+def repeat_inside(a):
+    # your code here
+    return None
+
+
+if __name__ == '__main__':
+    print("Example:")
+    print(repeat_inside('aaaaa'))
+
+    # These "asserts" are used for self-checking and not for an auto-testing
+    assert repeat_inside('aaaaa') == 'aaaaa'
+    assert repeat_inside('aabbff') == 'aa'
+    assert repeat_inside('aababcc') == 'abab'
+    assert repeat_inside('abc') == ''
+    assert repeat_inside('abcabcabab') == 'abcabc'
+    print("Coding complete? Click 'Check' to earn cool rewards!")
